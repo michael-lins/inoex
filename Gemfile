@@ -2,8 +2,6 @@ source "https://rubygems.org"
 
 ruby "2.6.3"
 
-gem 'httparty'
-
 gem 'blockcypher-ruby'
 
 group :test do
@@ -11,4 +9,5 @@ group :test do
 	gem 'vcr'
 	gem 'turn'
 	gem 'rake'
+	gem 'minitest'
 end
