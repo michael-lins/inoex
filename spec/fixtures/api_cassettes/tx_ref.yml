@@ -1,0 +1,49 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.blockcypher.com/v1/bcy/test/faucet?token=f559581fbebb412b9379cd5752bcae49
+    body:
+      encoding: UTF-8
+      string: '{"address":"C3qXd3YYRBrZZod5D9GLGhpDNnVfAwpbe2","amount":10000000}'
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.10.3 (Ubuntu)
+      Date:
+      - Sun, 09 Jun 2019 01:59:06 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '82'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '496'
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "tx_ref": "5933c5e6c02f313c35d4968a5acc3ce42e963b98443814cb7178ff2aa5e8af8a"
+        }
+    http_version: 
+  recorded_at: Sun, 09 Jun 2019 01:59:06 GMT
+recorded_with: VCR 5.0.0
