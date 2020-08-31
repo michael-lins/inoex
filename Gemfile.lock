@@ -21,7 +21,7 @@ GEM
     hashdiff (0.4.0)
     minitest (4.7.5)
     public_suffix (3.1.0)
-    rake (12.3.2)
+    rake (12.3.3)
     safe_yaml (1.0.5)
     scrypt (3.0.6)
       ffi-compiler (>= 1.0, < 2.0)
