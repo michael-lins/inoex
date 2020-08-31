@@ -2,6 +2,8 @@ source "https://rubygems.org"
 
 ruby "2.6.3"
 
+gem "rake", ">= 12.3.3"
+
 gem 'blockcypher-ruby'
 
 group :test do
